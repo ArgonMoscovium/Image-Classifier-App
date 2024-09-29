@@ -5,6 +5,8 @@ This project is a **Fashion Item Classifier** web app built using **Streamlit**.
 ## Project Overview
 
 This app allows users to upload images of fashion items (e.g., shirts, shoes, coats) and predicts the category of the item. The model is pre-trained and supports 10 classes from the **Fashion MNIST** dataset, including categories such as **T-shirt/top, Trouser, Pullover, Dress, Coat, Sneaker, Sandal, Shirt, Bag, and Ankle boot**.
+![image](https://github.com/user-attachments/assets/d25238f2-f674-4e6d-ac88-603884e4abf6)
+
 
 ## Features
 
