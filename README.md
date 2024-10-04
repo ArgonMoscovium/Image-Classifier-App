@@ -5,8 +5,6 @@ This project is a **Fashion Item Classifier** web app built using **Streamlit**.
 ## Project Overview
 
 This app allows users to upload images of fashion items (e.g., shirts, shoes, coats) and predicts the category of the item. The model is pre-trained and supports 10 classes from the **Fashion MNIST** dataset, including categories such as **T-shirt/top, Trouser, Pullover, Dress, Coat, Sneaker, Sandal, Shirt, Bag, and Ankle boot**.
-![image](https://github.com/user-attachments/assets/d25238f2-f674-4e6d-ac88-603884e4abf6)
-
 
 ## Features
 
@@ -57,10 +55,10 @@ To run this app locally, follow these steps:
 
 5. Run the Streamlit app:
    ```bash
-   streamlit run app.py
+   streamlit run app/main.py
    ```
 
-6. Upload a fashion item image, and click on "Classify" to see the model's prediction.
+6. Upload a fashion item image, and click on "Classify" to see the model's prediction. (You can find some sample images in the `test_images` directory)
 
 ## Model Overview
 
@@ -95,6 +93,11 @@ The model was trained on the Fashion MNIST dataset, achieving a validation accur
 ## Dataset
 
 The **Fashion MNIST** dataset consists of 70,000 grayscale images of 28x28 pixels each. The dataset contains 60,000 training images and 10,000 test images in 10 different classes. It is a widely used benchmark for image classification tasks.
+
+## Dockerizing the app on Docker Hub
+
+- The image is publicaly available on the Hub, for easy-to-use app with a pre trained model. With, reproducible environment across different platforms, scalability, version control and CI/CD ready capabilities.
+![alt text](image.png)
 
 ## Future Improvements
 

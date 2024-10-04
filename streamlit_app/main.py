@@ -30,7 +30,7 @@ uploaded_image = st.file_uploader("Upload an image...", type=["jpg", "jpeg", "pn
 
 if uploaded_image is not None:
     image = Image.open(uploaded_image)
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2) # Showing two columns Layout in the app
 
     with col1:
         resized_img = image.resize((100, 100)) # Display enlarged user ip image
