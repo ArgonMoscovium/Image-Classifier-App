@@ -1,6 +1,7 @@
 # Fashion Item Classifier
 
 This project is a **Fashion Item Classifier** web app built using **Streamlit**. The model used in the app is a Convolutional Neural Network (CNN) that classifies fashion items from the **Fashion MNIST dataset**. The model has been trained using TensorFlow and achieves **90.16% validation accuracy**.
+![alt text](image-1.png)
 
 ## Project Overview
 
